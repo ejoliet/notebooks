@@ -1,0 +1,1114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Produced with astropy.io.votable version 1.3.2
+     http://www.astropy.org/ -->
+<VOTABLE version="1.2" xmlns="http://www.ivoa.net/xml/VOTable/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.ivoa.net/xml/VOTable/v1.2">
+ <RESOURCE type="results">
+   <TABLE utype="spec:Spectrum" name="SPITZER_S0_25343744_0001_3_E7173899_tune.votable">
+   <DESCRIPTION>Spitzer IRS SL PBCD spectrum</DESCRIPTION>
+   <FIELD ID="order" datatype="int" name="order" ucd="instr.order" utype="ipac:Spectrum.Data.SpectralAxis.Order"/>
+   <FIELD ID="wavelength" datatype="double" name="wavelength" ucd="em.wl" unit="um" utype="spec:Spectrum.Data.SpectralAxis.Value"/>
+   <FIELD ID="flux_density" datatype="double" name="flux_density" ucd="phot.flux.density;em.freq" unit="Jy" utype="spec:Spectrum.Data.FluxAxis.Value"/>
+   <FIELD ID="error" datatype="double" name="error" ucd="stat.error;phot.flux.density;em.freq" unit="Jy" utype="spec:Spectrum.Data.FluxAxis.Accuracy.StatError"/>
+   <FIELD ID="bit-flag" datatype="int" name="bit-flag" utype="spec:Spectrum.Data.FluxAxis.Quality"/>
+   <PARAM ID="DataModel" arraysize="*" datatype="char" name="DataModel" utype="spec:Spectrum.DataModel" value="Spectrum 1.1"/>
+   <PARAM ID="Publisher" arraysize="*" datatype="char" name="Publisher" utype="spec:Spectrum.Curation.Publisher" value="IPAC"/>
+   <PARAM ID="Title" arraysize="*" datatype="char" name="Title" utype="spec:Spectrum.DataID.Title" value="FV Tau/c"/>
+   <PARAM ID="Target" arraysize="*" datatype="char" name="Target" utype="spec:Spectrum.Target.Name" value="FV Tau/c"/>
+   <PARAM ID="SpectralAxisName" arraysize="*" datatype="char" name="SpectralAxisName" utype="spec:Spectrum.Char.SpectralAxis.Name" value="wavelength"/>
+   <PARAM ID="SpectralAxisUcd" arraysize="*" datatype="char" name="SpectralAxisUcd" utype="spec:Spectrum.Char.SpectralAxis.ucd" value="em.wl"/>
+   <PARAM ID="SpectralAxisUnit" arraysize="*" datatype="char" name="SpectralAxisUnit" utype="spec:Spectrum.Char.SpectralAxis.unit" value="um"/>
+   <PARAM ID="SpectralAxisLocation" datatype="double" name="SpectralAxisLocation" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Location.Value" value="6.8654"/>
+   <PARAM ID="SpectralAxisExtent" datatype="double" name="SpectralAxisExtent" ucd="instr.bandwidth" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Extent" value="3.4778"/>
+   <PARAM ID="SpectralAxisStart" datatype="double" name="SpectralAxisStart" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Start" value="5.12652"/>
+   <PARAM ID="SpectralAxisStop" datatype="double" name="SpectralAxisStop" utype="spec:Spectrum.Char.SpectralAxis.Coverage.Bounds.Stop" value="8.60434"/>
+   <PARAM ID="FluxAxisName" arraysize="*" datatype="char" name="FluxAxisName" utype="spec:Spectrum.Char.FluxAxis.Name" value="flux_density"/>
+   <PARAM ID="FluxAxisUcd" arraysize="*" datatype="char" name="FluxAxisUcd" utype="spec:Spectrum.Char.FluxAxis.ucd" value="phot.flux.density"/>
+   <PARAM ID="FluxAxisUnit" arraysize="*" datatype="char" name="FluxAxisUnit" utype="spec:Spectrum.Char.FluxAxis.unit" value="Jy"/>
+   <PARAM ID="SpatialAxisLocation" arraysize="2" datatype="double" name="SpatialAxisLocation" ucd="pos.eq" unit="deg" utype="spec:Spectrum.Char.SpatialAxis.Coverage.Location.Value" value="66.727391 26.111694"/>
+   <PARAM ID="SpatialAxisExtent" datatype="double" name="SpatialAxisExtent" ucd="pos.angDistance;instr.fov" unit="deg" utype="spec:Spectrum.Char.SpatialAxis.Coverage.Bounds.Extent" value="0.002"/>
+   <PARAM ID="TimeAxisLocation" datatype="double" name="TimeAxisLocation" ucd="time.epoch;obs" unit="d" utype="spec:Spectrum.Char.TimeAxis.Coverage.Location.Value" value="54928.980282"/>
+   <PARAM ID="TimeExtent" datatype="double" name="TimeExtent" ucd="time.duration" unit="s" utype="spec:Spectrum.Char.TimeAxis.Coverage.Bounds.Extent" value="6.29"/>
+ <GROUP ID="Data.SpectralAxis" name="Data.SpectralAxis" utype="spec:Spectrum.Data.SpectralAxis">
+<DESCRIPTION>Spectral Axis Data</DESCRIPTION>
+<FIELDref ref="wavelength"/>
+<FIELDref ref="order"/>
+<PARAM ID="DataSpectralUcd" datatype="char" name="DataSpectralUcd" utype="spec:Spectrum.Data.SpectralAxis.Ucd" value="em.wl" arraysize="*">
+<DESCRIPTION>UCD for spectral coord</DESCRIPTION>
+</PARAM>
+<PARAM ID="DataSpectralUnit" datatype="char" name="DataSpectralUnit" utype="spec:Spectrum.Data.SpectralAxis.Unit" value="um" arraysize="*">
+<DESCRIPTION>Unit for spectral coord</DESCRIPTION>
+</PARAM>
+</GROUP>
+<GROUP ID="Data.FluxAxis" name="Data.FluxAxis" utype="spec:Spectrum.Data.FluxAxis">
+<DESCRIPTION>Flux Axis Data</DESCRIPTION>
+<FIELDref ref="flux_density"/>
+<FIELDref ref="error"/>
+<PARAM ID="DataFluxUcd" datatype="char" name="DataFluxUcd" utype="spec:Spectrum.Data.FluxAxis.Ucd" value="phot.flux.density" arraysize="*">
+<DESCRIPTION>UCD for flux</DESCRIPTION>
+</PARAM>
+<PARAM ID="DataFluxUnit" datatype="char" name="DataFluxUnit" utype="spec:Spectrum.Data.FluxAxis.Unit" value="Jy" arraysize="*"> 
+<DESCRIPTION>Unit for flux</DESCRIPTION>
+</PARAM>
+</GROUP>
+   <GROUP ID="OrigHeader" name="OrigHeader" ucd="meta.fits">
+    <DESCRIPTION>
+     Original header
+    </DESCRIPTION>
+    <PARAM ID="OrigHead_0000" arraysize="*" datatype="char" name="OrigHead_0000" value="COMMENT wavsamp version for S15.0, 2006 Oct 02"/>
+    <PARAM ID="OrigHead_0001" arraysize="*" datatype="char" name="OrigHead_0001" value="COMMENT processing time 14:04:24 PST 10/02/2006"/>
+    <PARAM ID="OrigHead_0002" arraysize="*" datatype="char" name="OrigHead_0002" value="COMMENT channelID = 0"/>
+    <PARAM ID="OrigHead_0003" arraysize="*" datatype="char" name="OrigHead_0003" value="HISTORY ========== Parameters supplied to RIDGE program below =========="/>
+    <PARAM ID="OrigHead_0004" arraysize="*" datatype="char" name="OrigHead_0004" value="HISTORY PROCESS 2010/09/17 15:52:13"/>
+    <PARAM ID="OrigHead_0005" arraysize="*" datatype="char" name="OrigHead_0005" value="HISTORY ridge v1.15  (nl_and_params v1.9)"/>
+    <PARAM ID="OrigHead_0006" arraysize="*" datatype="char" name="OrigHead_0006" value="HISTORY WAVSAMP_FILE = ./cal/wavsamp.tbl"/>
+    <PARAM ID="OrigHead_0007" arraysize="*" datatype="char" name="OrigHead_0007" value="HISTORY PROFILE_FILE = profile.tbl"/>
+    <PARAM ID="OrigHead_0008" arraysize="*" datatype="char" name="OrigHead_0008" value="HISTORY PSF_FOV_FILE = ./cal/psf_fov.tbl"/>
+    <PARAM ID="OrigHead_0009" arraysize="*" datatype="char" name="OrigHead_0009" value="HISTORY PCT_RANGE = 25.0, percent"/>
+    <PARAM ID="OrigHead_0010" arraysize="*" datatype="char" name="OrigHead_0010" value="HISTORY NUM_SIGMA = 3.0,"/>
+    <PARAM ID="OrigHead_0011" arraysize="*" datatype="char" name="OrigHead_0011" value="HISTORY MEDIAN_PTS = 5.0,"/>
+    <PARAM ID="OrigHead_0012" arraysize="*" datatype="char" name="OrigHead_0012" value="HISTORY NAMELIST_FILE = ./cdf/ridge.nl"/>
+    <PARAM ID="OrigHead_0013" arraysize="*" datatype="char" name="OrigHead_0013" value="HISTORY ========== RIDGE processing results summary below =========="/>
+    <PARAM ID="OrigHead_0014" arraysize="*" datatype="char" name="OrigHead_0014" value="HISTORY FIND PEAKS: YES"/>
+    <PARAM ID="OrigHead_0015" arraysize="*" datatype="char" name="OrigHead_0015" value="HISTORY OVERALL BEST Max DN=404.32 at PCT=65.25, found in region 0"/>
+    <PARAM ID="OrigHead_0016" arraysize="*" datatype="char" name="OrigHead_0016" value="HISTORY MED_FILT_SIZE = 5"/>
+    <PARAM ID="OrigHead_0017" arraysize="*" datatype="char" name="OrigHead_0017" value="HISTORY PERCENTAGE = 65.25  (cut was performed here)"/>
+    <PARAM ID="OrigHead_0018" arraysize="*" datatype="char" name="OrigHead_0018" value="HISTORY MAX_SIGNAL = 404.32  (maximum signal value in DN)"/>
+    <PARAM ID="OrigHead_0019" arraysize="*" datatype="char" name="OrigHead_0019" value="HISTORY CUT_POS = 65.25  (pct at which the max signal was found)"/>
+    <PARAM ID="OrigHead_0020" arraysize="*" datatype="char" name="OrigHead_0020" value="HISTORY MAX_SIGNAL_IN_REGION = 0  (region where max signal was found)"/>
+    <PARAM ID="OrigHead_0021" arraysize="*" datatype="char" name="OrigHead_0021" value="HISTORY DET_THRESH = -3.74684  (number of sigma over threshold)"/>
+    <PARAM ID="OrigHead_0022" arraysize="*" datatype="char" name="OrigHead_0022" value="HISTORY DET_SIGMA = 94.0976  (sigma value used to find threshold)"/>
+    <PARAM ID="OrigHead_0023" arraysize="*" datatype="char" name="OrigHead_0023" value="COMMENT ========== Keywords from PROFILE table file below =========="/>
+    <PARAM ID="OrigHead_0024" arraysize="*" datatype="char" name="OrigHead_0024" value="NAXIS   =                    2 / STANDARD FITS FORMAT"/>
+    <PARAM ID="OrigHead_0025" arraysize="*" datatype="char" name="OrigHead_0025" value="NAXIS1  =                  128"/>
+    <PARAM ID="OrigHead_0026" arraysize="*" datatype="char" name="OrigHead_0026" value="NAXIS2  =                  128"/>
+    <PARAM ID="OrigHead_0027" arraysize="*" datatype="char" name="OrigHead_0027" value="ORIGIN  = &apos;Spitzer Science Center&apos; / Organization generating this FITS file"/>
+    <PARAM ID="OrigHead_0028" arraysize="*" datatype="char" name="OrigHead_0028" value="CREATOR = &apos;S18.18.0&apos;           / SW version used to create this FITS file"/>
+    <PARAM ID="OrigHead_0029" arraysize="*" datatype="char" name="OrigHead_0029" value="TELESCOP= &apos;Spitzer &apos;"/>
+    <PARAM ID="OrigHead_0030" arraysize="*" datatype="char" name="OrigHead_0030" value="INSTRUME= &apos;IRSX    &apos;"/>
+    <PARAM ID="OrigHead_0031" arraysize="*" datatype="char" name="OrigHead_0031" value="CAL_SET = &apos;C18.18POST44.A&apos;     / ID for the set of CAL files used"/>
+    <PARAM ID="OrigHead_0032" arraysize="*" datatype="char" name="OrigHead_0032" value="CHNLNUM =                    0 / 0=SL, 1=SH, 2=LL, 3=LH"/>
+    <PARAM ID="OrigHead_0033" arraysize="*" datatype="char" name="OrigHead_0033" value="FILENAME= &apos;IRSX.0.0025343744.0001.0000.01.mipl.fits&apos; / File name"/>
+    <PARAM ID="OrigHead_0034" arraysize="*" datatype="char" name="OrigHead_0034" value="FILETYPE= &apos;fits-irs2d-flux&apos;"/>
+    <PARAM ID="OrigHead_0035" arraysize="*" datatype="char" name="OrigHead_0035" value="EXPTYPE = &apos;sp      &apos;           / Exposure Type"/>
+    <PARAM ID="OrigHead_0036" arraysize="*" datatype="char" name="OrigHead_0036" value="REQTYPE = &apos;AOR     &apos;           / Request type (AOR,IER, or SER)"/>
+    <PARAM ID="OrigHead_0037" arraysize="*" datatype="char" name="OrigHead_0037" value="AOT_TYPE= &apos;IrsStare&apos;           / Observation Template Type"/>
+    <PARAM ID="OrigHead_0038" arraysize="*" datatype="char" name="OrigHead_0038" value="AORLABEL= &apos;IRSS-G-DMW-GTO4-TAUCHA-0016&apos; / AOR Label"/>
+    <PARAM ID="OrigHead_0039" arraysize="*" datatype="char" name="OrigHead_0039" value="FOVNAME = &apos;IRS_Short-Lo_2nd_Order_2nd_Position&apos; / Field of View Name"/>
+    <PARAM ID="OrigHead_0040" arraysize="*" datatype="char" name="OrigHead_0040" value="READMODE= &apos;RAW     &apos;           / Readout Mode"/>
+    <PARAM ID="OrigHead_0041" arraysize="*" datatype="char" name="OrigHead_0041" value="COMMENT"/>
+    <PARAM ID="OrigHead_0042" arraysize="*" datatype="char" name="OrigHead_0042" value="COMMENT           / PROPOSAL INFORMATION"/>
+    <PARAM ID="OrigHead_0043" arraysize="*" datatype="char" name="OrigHead_0043" value="COMMENT"/>
+    <PARAM ID="OrigHead_0044" arraysize="*" datatype="char" name="OrigHead_0044" value="OBSRVR  = &apos;James R. Houck&apos;     / Observer Name"/>
+    <PARAM ID="OrigHead_0045" arraysize="*" datatype="char" name="OrigHead_0045" value="OBSRVRID=                    4 / Observer ID of Principal Investigator"/>
+    <PARAM ID="OrigHead_0046" arraysize="*" datatype="char" name="OrigHead_0046" value="PROCYCL =                    8 / Proposal Cycle"/>
+    <PARAM ID="OrigHead_0047" arraysize="*" datatype="char" name="OrigHead_0047" value="PROGID  =                50053 / Program ID"/>
+    <PARAM ID="OrigHead_0048" arraysize="*" datatype="char" name="OrigHead_0048" value="PROTITLE= &apos;Completing the IRS Survey of Disks in Taurus and Chamaeleon&apos; / Progra"/>
+    <PARAM ID="OrigHead_0049" arraysize="*" datatype="char" name="OrigHead_0049" value="PROGCAT =                   29 / Program Category"/>
+    <PARAM ID="OrigHead_0050" arraysize="*" datatype="char" name="OrigHead_0050" value="COMMENT"/>
+    <PARAM ID="OrigHead_0051" arraysize="*" datatype="char" name="OrigHead_0051" value="COMMENT           / TIME AND EXPOSURE INFORMATION"/>
+    <PARAM ID="OrigHead_0052" arraysize="*" datatype="char" name="OrigHead_0052" value="COMMENT"/>
+    <PARAM ID="OrigHead_0053" arraysize="*" datatype="char" name="OrigHead_0053" value="DATE_OBS= &apos;2009-04-07T23:31:33.252&apos; / Date &amp;amp; time (UTC) at DCE start"/>
+    <PARAM ID="OrigHead_0054" arraysize="*" datatype="char" name="OrigHead_0054" value="MJD_OBS =         54928.980246 / Program calkeywords trimmed-average result"/>
+    <PARAM ID="OrigHead_0055" arraysize="*" datatype="char" name="OrigHead_0055" value="UTCS_OBS=        292419093.252 / Program calkeywords trimmed-average result"/>
+    <PARAM ID="OrigHead_0056" arraysize="*" datatype="char" name="OrigHead_0056" value="SCLK_OBS=        923614532.233 / Program calkeywords trimmed-average result"/>
+    <PARAM ID="OrigHead_0057" arraysize="*" datatype="char" name="OrigHead_0057" value="SAMPTIME=               1.0486 / [sec] Sample integration time"/>
+    <PARAM ID="OrigHead_0058" arraysize="*" datatype="char" name="OrigHead_0058" value="REQMODE =                    5 / ID for mode or type of request"/>
+    <PARAM ID="OrigHead_0059" arraysize="*" datatype="char" name="OrigHead_0059" value="EXPSTRTC=            923614524 / Exposure Start Timestamp Coarse"/>
+    <PARAM ID="OrigHead_0060" arraysize="*" datatype="char" name="OrigHead_0060" value="EXPSTRTF=                57319 / Exposure Start Timestamp Fine"/>
+    <PARAM ID="OrigHead_0061" arraysize="*" datatype="char" name="OrigHead_0061" value="GRPARVTC=            923614535 / [sec] Coarse Spacecraft Group Time"/>
+    <PARAM ID="OrigHead_0062" arraysize="*" datatype="char" name="OrigHead_0062" value="GRPARVTF=                    0 / [sec] Fine Spacecraft Group Time"/>
+    <PARAM ID="OrigHead_0063" arraysize="*" datatype="char" name="OrigHead_0063" value="AIRSCMDN=                    1 / Commanded number of DCEs for IRS"/>
+    <PARAM ID="OrigHead_0064" arraysize="*" datatype="char" name="OrigHead_0064" value="AIRS_DET=                    0 / Selected IRS detector for exposure command"/>
+    <PARAM ID="OrigHead_0065" arraysize="*" datatype="char" name="OrigHead_0065" value="AIRSEXPM=                    1 / Current Mode of the IRS Exp Manager"/>
+    <PARAM ID="OrigHead_0066" arraysize="*" datatype="char" name="OrigHead_0066" value="GRPTIME =               2.0972 / [sec] Group (w/ spin) integration time"/>
+    <PARAM ID="OrigHead_0067" arraysize="*" datatype="char" name="OrigHead_0067" value="DEADTIME=               6.2916 / [sec] Reset + boost(s) time"/>
+    <PARAM ID="OrigHead_0068" arraysize="*" datatype="char" name="OrigHead_0068" value="RAMPTIME=                 6.29 / [sec] Ramp (total DCE) integration time"/>
+    <PARAM ID="OrigHead_0069" arraysize="*" datatype="char" name="OrigHead_0069" value="EXPTOT_T=                 6.29 / [sec] Integr. time for all DCEs in exposure"/>
+    <PARAM ID="OrigHead_0070" arraysize="*" datatype="char" name="OrigHead_0070" value="AIRSERCT=                    0 / Number of IRS exposure errors"/>
+    <PARAM ID="OrigHead_0071" arraysize="*" datatype="char" name="OrigHead_0071" value="COMMENT"/>
+    <PARAM ID="OrigHead_0072" arraysize="*" datatype="char" name="OrigHead_0072" value="COMMENT           / TARGET AND POINTING INFORMATION"/>
+    <PARAM ID="OrigHead_0073" arraysize="*" datatype="char" name="OrigHead_0073" value="COMMENT"/>
+    <PARAM ID="OrigHead_0074" arraysize="*" datatype="char" name="OrigHead_0074" value="OBJECT  = &apos;FV Tau/c&apos;           / Target Name"/>
+    <PARAM ID="OrigHead_0075" arraysize="*" datatype="char" name="OrigHead_0075" value="OBJTYPE = &apos;TargetFixedSingle&apos;  / Target Type"/>
+    <PARAM ID="OrigHead_0076" arraysize="*" datatype="char" name="OrigHead_0076" value="CRVAL1  =     66.7734329241073 / [deg] RA at CRPIX1,CRPIX2 averaged over DCE"/>
+    <PARAM ID="OrigHead_0077" arraysize="*" datatype="char" name="OrigHead_0077" value="CRVAL2  =      26.016959576143 / [deg] DEC at CRPIX1,CRPIX2 averaged over DCE"/>
+    <PARAM ID="OrigHead_0078" arraysize="*" datatype="char" name="OrigHead_0078" value="RA_HMS  = &apos;04h27m05.6s&apos;        / [hh:mm:ss.s] RA_SLT or CRVAL1 in sexagesimal"/>
+    <PARAM ID="OrigHead_0079" arraysize="*" datatype="char" name="OrigHead_0079" value="DEC_DMS = &apos;+26d01m01s&apos;         / [dd:mm:ss] DEC_SLT or CRVAL2 in sexagesimal"/>
+    <PARAM ID="OrigHead_0080" arraysize="*" datatype="char" name="OrigHead_0080" value="RADESYS = &apos;ICRS    &apos;           / International Celestial Reference System"/>
+    <PARAM ID="OrigHead_0081" arraysize="*" datatype="char" name="OrigHead_0081" value="EQUINOX =                2000. / Equinox for ICRF celestial coord. system"/>
+    <PARAM ID="OrigHead_0082" arraysize="*" datatype="char" name="OrigHead_0082" value="CTYPE1  = &apos;RA---TAN-SIP&apos;       / RA---TAN with distortion in pixel space"/>
+    <PARAM ID="OrigHead_0083" arraysize="*" datatype="char" name="OrigHead_0083" value="CTYPE2  = &apos;DEC--TAN-SIP&apos;       / DEC--TAN with distortion in pixel space"/>
+    <PARAM ID="OrigHead_0084" arraysize="*" datatype="char" name="OrigHead_0084" value="CRPIX1  =                 108."/>
+    <PARAM ID="OrigHead_0085" arraysize="*" datatype="char" name="OrigHead_0085" value="CRPIX2  =                  31."/>
+    <PARAM ID="OrigHead_0086" arraysize="*" datatype="char" name="OrigHead_0086" value="PA      =    -99.7721821406204 / [deg] Position angle of axis 2 (E of N,+=CCW)"/>
+    <PARAM ID="OrigHead_0087" arraysize="*" datatype="char" name="OrigHead_0087" value="RA_RQST =     66.7267083333333 / [deg] Commanded RA referenced to commanded FOV"/>
+    <PARAM ID="OrigHead_0088" arraysize="*" datatype="char" name="OrigHead_0088" value="DEC_RQST=     26.1141947222222 / [deg] Commanded Dec referenced to commanded FOV"/>
+    <PARAM ID="OrigHead_0089" arraysize="*" datatype="char" name="OrigHead_0089" value="PA_RQST =     261.443389713278 / [deg] Requested pos. angle of axis 2 (E of N)"/>
+    <PARAM ID="OrigHead_0090" arraysize="*" datatype="char" name="OrigHead_0090" value="PM_RA   =                   0. / [arcsec/yr] Proper Motion in RA (J2000)"/>
+    <PARAM ID="OrigHead_0091" arraysize="*" datatype="char" name="OrigHead_0091" value="PM_DEC  =                   0. / [arcsec/yr] Proper Motion in Dec (J2000)"/>
+    <PARAM ID="OrigHead_0092" arraysize="*" datatype="char" name="OrigHead_0092" value="CRDER1  =   0.0003017967414472 / Program calkeywords trimmed-average result"/>
+    <PARAM ID="OrigHead_0093" arraysize="*" datatype="char" name="OrigHead_0093" value="CRDER2  = 0.000301959700115474 / Program calkeywords trimmed-average result"/>
+    <PARAM ID="OrigHead_0094" arraysize="*" datatype="char" name="OrigHead_0094" value="SIGRA   =   0.0303602194249796 / [arcsec] RMS dispersion of RA over DCE"/>
+    <PARAM ID="OrigHead_0095" arraysize="*" datatype="char" name="OrigHead_0095" value="SIGDEC  =    0.016918749411979 / [arcsec] RMS dispersion of DEC over DCE"/>
+    <PARAM ID="OrigHead_0096" arraysize="*" datatype="char" name="OrigHead_0096" value="SIGPA   =    0.146002127465945 / [arcsec] RMS dispersion of PA over DCE"/>
+    <PARAM ID="OrigHead_0097" arraysize="*" datatype="char" name="OrigHead_0097" value="PTGDIFF =   0.0333876805426263 / [arcsec] offset btwn actual and rqsted pntng"/>
+    <PARAM ID="OrigHead_0098" arraysize="*" datatype="char" name="OrigHead_0098" value="PTGDIFFX=   0.0277916719383784 / [arcsec] requested - actual pntg along axis 1"/>
+    <PARAM ID="OrigHead_0099" arraysize="*" datatype="char" name="OrigHead_0099" value="PTGDIFFY=  -0.0185195650589605 / [arcsec] requested - actual pntg along axis 2"/>
+    <PARAM ID="OrigHead_0100" arraysize="*" datatype="char" name="OrigHead_0100" value="RA_REF  =     66.7267083333334 / [deg] Commanded RA (J2000) of ref. position"/>
+    <PARAM ID="OrigHead_0101" arraysize="*" datatype="char" name="OrigHead_0101" value="DEC_REF =     26.1141947222222 / [deg] Commanded Dec (J2000) of ref. position"/>
+    <PARAM ID="OrigHead_0102" arraysize="*" datatype="char" name="OrigHead_0102" value="CD1_1   = -9.52704249774542E-05 / [deg/pix] CD matrix element 1_1"/>
+    <PARAM ID="OrigHead_0103" arraysize="*" datatype="char" name="OrigHead_0103" value="CD1_2   = -0.000497897362000299 / [deg/pix] CD matrix element 1_2"/>
+    <PARAM ID="OrigHead_0104" arraysize="*" datatype="char" name="OrigHead_0104" value="CD2_1   = 0.000503560259858159 / [deg/pix] CD matrix element 2_1"/>
+    <PARAM ID="OrigHead_0105" arraysize="*" datatype="char" name="OrigHead_0105" value="CD2_2   = -8.57528538887432E-05 / [deg/pix] CD matrix element 2_2"/>
+    <PARAM ID="OrigHead_0106" arraysize="*" datatype="char" name="OrigHead_0106" value="USEDBPHF=                    T / T if Boresight Pointing History File was used."/>
+    <PARAM ID="OrigHead_0107" arraysize="*" datatype="char" name="OrigHead_0107" value="RMS_JIT =   0.0124548349547002 / Program calkeywords trimmed-average result"/>
+    <PARAM ID="OrigHead_0108" arraysize="*" datatype="char" name="OrigHead_0108" value="RMS_JITY=  0.00759671247579336 / Program calkeywords trimmed-average result"/>
+    <PARAM ID="OrigHead_0109" arraysize="*" datatype="char" name="OrigHead_0109" value="RMS_JITZ=  0.00986979601151656 / Program calkeywords trimmed-average result"/>
+    <PARAM ID="OrigHead_0110" arraysize="*" datatype="char" name="OrigHead_0110" value="RA_FOV  =     66.7267159255097 / [deg] RA at FOVID averaged over DCE"/>
+    <PARAM ID="OrigHead_0111" arraysize="*" datatype="char" name="OrigHead_0111" value="DEC_FOV =     26.1141884303672 / [deg] DEC at FOVID averaged over DCE"/>
+    <PARAM ID="OrigHead_0112" arraysize="*" datatype="char" name="OrigHead_0112" value="PA_FOV  =    -13.6163779358078 / [deg] PA at FOVID averaged over DCE"/>
+    <PARAM ID="OrigHead_0113" arraysize="*" datatype="char" name="OrigHead_0113" value="RA_SLT  =     66.7273909254894 / [deg] RA at slit center averaged over DCE"/>
+    <PARAM ID="OrigHead_0114" arraysize="*" datatype="char" name="OrigHead_0114" value="DEC_SLT =     26.1116935732992 / [deg] DEC at slit center averaged over DCE"/>
+    <PARAM ID="OrigHead_0115" arraysize="*" datatype="char" name="OrigHead_0115" value="PA_SLT  =    -13.6160899358166 / [deg] PA at slit center averaged over DCE"/>
+    <PARAM ID="OrigHead_0116" arraysize="*" datatype="char" name="OrigHead_0116" value="RA_XSLT =     66.7330989253181 / [deg] RA at center of non-targeted slit"/>
+    <PARAM ID="OrigHead_0117" arraysize="*" datatype="char" name="OrigHead_0117" value="DEC_XSLT=     26.0905375739343 / [deg] DEC at center of non-targeted slit"/>
+    <PARAM ID="OrigHead_0118" arraysize="*" datatype="char" name="OrigHead_0118" value="PA_XSLT =    -13.6136539358897 / [deg] PA at center of non-targeted slit"/>
+    <PARAM ID="OrigHead_0119" arraysize="*" datatype="char" name="OrigHead_0119" value="RA_BPU  =     66.7734329241073 / [deg] RA at center of blue peakup image"/>
+    <PARAM ID="OrigHead_0120" arraysize="*" datatype="char" name="OrigHead_0120" value="DEC_BPU =      26.016959576143 / [deg] DEC at center of blue peakup image"/>
+    <PARAM ID="OrigHead_0121" arraysize="*" datatype="char" name="OrigHead_0121" value="RA_RPU  =     66.7394039251288 / [deg] RA at center of red peakup image"/>
+    <PARAM ID="OrigHead_0122" arraysize="*" datatype="char" name="OrigHead_0122" value="DEC_RPU =     26.0106185763333 / [deg] DEC at center of red peakup image"/>
+    <PARAM ID="OrigHead_0123" arraysize="*" datatype="char" name="OrigHead_0123" value="CSDRADEC= 6.78128274665164E-06 / [deg] Costandard deviation in RA and Dec"/>
+    <PARAM ID="OrigHead_0124" arraysize="*" datatype="char" name="OrigHead_0124" value="CSD_JTYZ= -0.00491158186700209 / [arcsec] Costandard deviation of jitter in YZ"/>
+    <PARAM ID="OrigHead_0125" arraysize="*" datatype="char" name="OrigHead_0125" value="BPHFNAME= &apos;BPHF.0923572800.03.pntg&apos; / Boresight Pointing History Filename"/>
+    <PARAM ID="OrigHead_0126" arraysize="*" datatype="char" name="OrigHead_0126" value="FOVVERSN= &apos;BodyFrames_FTU_22b.xls&apos; / FOV/BodyFrames file version used"/>
+    <PARAM ID="OrigHead_0127" arraysize="*" datatype="char" name="OrigHead_0127" value="PXSCAL1 =     1.84447802603245 / [arcsec/pix] Scale for axis1 at CRPIX1,CRPIX2"/>
+    <PARAM ID="OrigHead_0128" arraysize="*" datatype="char" name="OrigHead_0128" value="PXSCAL2 =     1.81882081087679 / [arcsec/pix] Scale for axis2 at CRPIX1,CRPIX2"/>
+    <PARAM ID="OrigHead_0129" arraysize="*" datatype="char" name="OrigHead_0129" value="VHELCORR=                -29.8 / [km/sec] Correction to heliocentric velocity"/>
+    <PARAM ID="OrigHead_0130" arraysize="*" datatype="char" name="OrigHead_0130" value="VLSRCORR=                -39.7 / [km/sec] Correction to local standard of rest"/>
+    <PARAM ID="OrigHead_0131" arraysize="*" datatype="char" name="OrigHead_0131" value="SPTZR_X =    -137545282.656598 / [km] Heliocentric x position"/>
+    <PARAM ID="OrigHead_0132" arraysize="*" datatype="char" name="OrigHead_0132" value="SPTZR_Y =      55413131.230232 / [km] Heliocentric y position"/>
+    <PARAM ID="OrigHead_0133" arraysize="*" datatype="char" name="OrigHead_0133" value="SPTZR_Z =      22907938.683187 / [km] Heliocentric z position"/>
+    <PARAM ID="OrigHead_0134" arraysize="*" datatype="char" name="OrigHead_0134" value="SPTZR_VX=           -11.968234 / [km/sec] Heliocentric x velocity"/>
+    <PARAM ID="OrigHead_0135" arraysize="*" datatype="char" name="OrigHead_0135" value="SPTZR_VY=            -24.91972 / [km/sec] Heliocentric y velocity"/>
+    <PARAM ID="OrigHead_0136" arraysize="*" datatype="char" name="OrigHead_0136" value="SPTZR_VZ=           -11.410635 / [km/sec] Heliocentric z velocity"/>
+    <PARAM ID="OrigHead_0137" arraysize="*" datatype="char" name="OrigHead_0137" value="ET_OBS  =        292419159.438 / [sec] DCE start time (TDB seconds past J2000)"/>
+    <PARAM ID="OrigHead_0138" arraysize="*" datatype="char" name="OrigHead_0138" value="HMJD_OBS=        54928.9805159 / Corresponding Heliocen. Mod. Julian Date"/>
+    <PARAM ID="OrigHead_0139" arraysize="*" datatype="char" name="OrigHead_0139" value="COMMENT"/>
+    <PARAM ID="OrigHead_0140" arraysize="*" datatype="char" name="OrigHead_0140" value="COMMENT"/>
+    <PARAM ID="OrigHead_0141" arraysize="*" datatype="char" name="OrigHead_0141" value="COMMENT           / DISTORTION KEYWORDS (IMAGING MODE)"/>
+    <PARAM ID="OrigHead_0142" arraysize="*" datatype="char" name="OrigHead_0142" value="COMMENT"/>
+    <PARAM ID="OrigHead_0143" arraysize="*" datatype="char" name="OrigHead_0143" value="A_ORDER =                    3 / polynomial order, axis 1, detector to sky"/>
+    <PARAM ID="OrigHead_0144" arraysize="*" datatype="char" name="OrigHead_0144" value="A_0_2   =           -1.455E-05 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0145" arraysize="*" datatype="char" name="OrigHead_0145" value="A_0_3   =           -8.005E-08 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0146" arraysize="*" datatype="char" name="OrigHead_0146" value="A_1_1   =           -3.542E-05 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0147" arraysize="*" datatype="char" name="OrigHead_0147" value="A_1_2   =            4.616E-07 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0148" arraysize="*" datatype="char" name="OrigHead_0148" value="A_2_0   =           -0.0004012 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0149" arraysize="*" datatype="char" name="OrigHead_0149" value="A_2_1   =            3.236E-06 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0150" arraysize="*" datatype="char" name="OrigHead_0150" value="A_3_0   =           -2.239E-06 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0151" arraysize="*" datatype="char" name="OrigHead_0151" value="A_DMAX  =                0.179 / [pixel] maximum correction"/>
+    <PARAM ID="OrigHead_0152" arraysize="*" datatype="char" name="OrigHead_0152" value="COMMENT"/>
+    <PARAM ID="OrigHead_0153" arraysize="*" datatype="char" name="OrigHead_0153" value="B_ORDER =                    3 / polynomial order, axis 2, detector to sky"/>
+    <PARAM ID="OrigHead_0154" arraysize="*" datatype="char" name="OrigHead_0154" value="B_0_2   =           -9.783E-05 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0155" arraysize="*" datatype="char" name="OrigHead_0155" value="B_0_3   =            8.284E-07 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0156" arraysize="*" datatype="char" name="OrigHead_0156" value="B_1_1   =           -2.749E-05 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0157" arraysize="*" datatype="char" name="OrigHead_0157" value="B_1_2   =            7.656E-07 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0158" arraysize="*" datatype="char" name="OrigHead_0158" value="B_2_0   =            0.0003392 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0159" arraysize="*" datatype="char" name="OrigHead_0159" value="B_2_1   =            2.381E-06 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0160" arraysize="*" datatype="char" name="OrigHead_0160" value="B_3_0   =            9.071E-07 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0161" arraysize="*" datatype="char" name="OrigHead_0161" value="B_DMAX  =                0.205 / [pixel] maximum correction"/>
+    <PARAM ID="OrigHead_0162" arraysize="*" datatype="char" name="OrigHead_0162" value="COMMENT"/>
+    <PARAM ID="OrigHead_0163" arraysize="*" datatype="char" name="OrigHead_0163" value="AP_ORDER=                    3 / polynomial order, axis 1, sky to detector"/>
+    <PARAM ID="OrigHead_0164" arraysize="*" datatype="char" name="OrigHead_0164" value="AP_0_1  =           -0.0006218 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0165" arraysize="*" datatype="char" name="OrigHead_0165" value="AP_0_2  =            1.477E-05 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0166" arraysize="*" datatype="char" name="OrigHead_0166" value="AP_0_3  =             7.88E-08 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0167" arraysize="*" datatype="char" name="OrigHead_0167" value="AP_1_0  =            0.0004662 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0168" arraysize="*" datatype="char" name="OrigHead_0168" value="AP_1_1  =            3.432E-05 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0169" arraysize="*" datatype="char" name="OrigHead_0169" value="AP_1_2  =            -4.51E-07 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0170" arraysize="*" datatype="char" name="OrigHead_0170" value="AP_2_0  =            0.0004012 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0171" arraysize="*" datatype="char" name="OrigHead_0171" value="AP_2_1  =            -3.23E-06 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0172" arraysize="*" datatype="char" name="OrigHead_0172" value="AP_3_0  =            2.316E-06 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0173" arraysize="*" datatype="char" name="OrigHead_0173" value="COMMENT"/>
+    <PARAM ID="OrigHead_0174" arraysize="*" datatype="char" name="OrigHead_0174" value="BP_ORDER=                    3 / polynomial order, axis 2, sky to detector"/>
+    <PARAM ID="OrigHead_0175" arraysize="*" datatype="char" name="OrigHead_0175" value="BP_0_1  =             0.000737 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0176" arraysize="*" datatype="char" name="OrigHead_0176" value="BP_0_2  =            9.807E-05 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0177" arraysize="*" datatype="char" name="OrigHead_0177" value="BP_0_3  =           -8.328E-07 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0178" arraysize="*" datatype="char" name="OrigHead_0178" value="BP_1_0  =           -0.0008341 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0179" arraysize="*" datatype="char" name="OrigHead_0179" value="BP_1_1  =             2.79E-05 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0180" arraysize="*" datatype="char" name="OrigHead_0180" value="BP_1_2  =           -7.868E-07 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0181" arraysize="*" datatype="char" name="OrigHead_0181" value="BP_2_0  =           -0.0003395 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0182" arraysize="*" datatype="char" name="OrigHead_0182" value="BP_2_1  =           -2.444E-06 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0183" arraysize="*" datatype="char" name="OrigHead_0183" value="BP_3_0  =           -9.971E-07 / distortion coefficient"/>
+    <PARAM ID="OrigHead_0184" arraysize="*" datatype="char" name="OrigHead_0184" value="COMMENT"/>
+    <PARAM ID="OrigHead_0185" arraysize="*" datatype="char" name="OrigHead_0185" value="COMMENT           / PHOTOMETRY (IRS IMAGING)"/>
+    <PARAM ID="OrigHead_0186" arraysize="*" datatype="char" name="OrigHead_0186" value="COMMENT"/>
+    <PARAM ID="OrigHead_0187" arraysize="*" datatype="char" name="OrigHead_0187" value="BUNIT   = &apos;e-/sec  &apos;           / Units of image data"/>
+    <PARAM ID="OrigHead_0188" arraysize="*" datatype="char" name="OrigHead_0188" value="COMMENT"/>
+    <PARAM ID="OrigHead_0189" arraysize="*" datatype="char" name="OrigHead_0189" value="COMMENT           / SPECTROPHOTOMETRY IRS SL, LL (CHNLNUM 0, 2)"/>
+    <PARAM ID="OrigHead_0190" arraysize="*" datatype="char" name="OrigHead_0190" value="COMMENT"/>
+    <PARAM ID="OrigHead_0191" arraysize="*" datatype="char" name="OrigHead_0191" value="FLXCON01=          7900.086426 / [electrons/sec/Jy] Flux conversion Order 1"/>
+    <PARAM ID="OrigHead_0192" arraysize="*" datatype="char" name="OrigHead_0192" value="FLXERR01=                124.5 / Flux conversion uncertainties Order 1"/>
+    <PARAM ID="OrigHead_0193" arraysize="*" datatype="char" name="OrigHead_0193" value="FLXCON02=           4140.19043 / [electrons/sec/Jy] Flux conversion Order 2"/>
+    <PARAM ID="OrigHead_0194" arraysize="*" datatype="char" name="OrigHead_0194" value="FLXERR02=                124.5 / Flux conversion uncertainties Order 2"/>
+    <PARAM ID="OrigHead_0195" arraysize="*" datatype="char" name="OrigHead_0195" value="FLXCON03=           4220.65918 / [electrons/sec/Jy] Flux conversion Bonus Order"/>
+    <PARAM ID="OrigHead_0196" arraysize="*" datatype="char" name="OrigHead_0196" value="FLXERR03=                124.5 / Flux conversion uncertainties Order 3"/>
+    <PARAM ID="OrigHead_0197" arraysize="*" datatype="char" name="OrigHead_0197" value="COMMENT"/>
+    <PARAM ID="OrigHead_0198" arraysize="*" datatype="char" name="OrigHead_0198" value="COMMENT           / GENERAL MAPPING KEYWORDS"/>
+    <PARAM ID="OrigHead_0199" arraysize="*" datatype="char" name="OrigHead_0199" value="COMMENT"/>
+    <PARAM ID="OrigHead_0200" arraysize="*" datatype="char" name="OrigHead_0200" value="DBEXPOID=             10628807 / Current Exposure ID"/>
+    <PARAM ID="OrigHead_0201" arraysize="*" datatype="char" name="OrigHead_0201" value="COMMENT"/>
+    <PARAM ID="OrigHead_0202" arraysize="*" datatype="char" name="OrigHead_0202" value="COMMENT           / IRS PEAKUP KEYWORDS"/>
+    <PARAM ID="OrigHead_0203" arraysize="*" datatype="char" name="OrigHead_0203" value="COMMENT"/>
+    <PARAM ID="OrigHead_0204" arraysize="*" datatype="char" name="OrigHead_0204" value="HP_CENQ =                    0 / Peakup centroid quality code"/>
+    <PARAM ID="OrigHead_0205" arraysize="*" datatype="char" name="OrigHead_0205" value="APKUPCEN=                    1 / Status of the peakup centroid"/>
+    <PARAM ID="OrigHead_0206" arraysize="*" datatype="char" name="OrigHead_0206" value="AXCNTRD1=                10798 / [centipixels] X value of the brightest centroid"/>
+    <PARAM ID="OrigHead_0207" arraysize="*" datatype="char" name="OrigHead_0207" value="AYCNTRD1=                 2802 / [centipixels] Y value of the brightest centroid"/>
+    <PARAM ID="OrigHead_0208" arraysize="*" datatype="char" name="OrigHead_0208" value="AXCNTRD2=                    0 / [centipixels] X value of the second brightest c"/>
+    <PARAM ID="OrigHead_0209" arraysize="*" datatype="char" name="OrigHead_0209" value="AYCNTRD2=                    0 / [centipixels] Y value of the second brightest c"/>
+    <PARAM ID="OrigHead_0210" arraysize="*" datatype="char" name="OrigHead_0210" value="AINTENS1=               110325 / [counts] Intensity value of the brightest centr"/>
+    <PARAM ID="OrigHead_0211" arraysize="*" datatype="char" name="OrigHead_0211" value="AINTENS2=                    0 / [counts] Intensity value of the second brightes"/>
+    <PARAM ID="OrigHead_0212" arraysize="*" datatype="char" name="OrigHead_0212" value="APKUPXCE=                10798 / [centipixels] X value of the centroid to be ret"/>
+    <PARAM ID="OrigHead_0213" arraysize="*" datatype="char" name="OrigHead_0213" value="APKUPYCE=                 2802 / [centipixels] Y value of the centroid to be ret"/>
+    <PARAM ID="OrigHead_0214" arraysize="*" datatype="char" name="OrigHead_0214" value="COMMENT"/>
+    <PARAM ID="OrigHead_0215" arraysize="*" datatype="char" name="OrigHead_0215" value="COMMENT"/>
+    <PARAM ID="OrigHead_0216" arraysize="*" datatype="char" name="OrigHead_0216" value="COMMENT           / DATA FLOW KEYWORDS"/>
+    <PARAM ID="OrigHead_0217" arraysize="*" datatype="char" name="OrigHead_0217" value="COMMENT"/>
+    <PARAM ID="OrigHead_0218" arraysize="*" datatype="char" name="OrigHead_0218" value="DATE    = &apos;2010-09-17T22:47:46&apos; / file creation date (YYYY-MM-DDThh:mm:ss UT)"/>
+    <PARAM ID="OrigHead_0219" arraysize="*" datatype="char" name="OrigHead_0219" value="AORKEY  = &apos;25343744&apos;           / AOR or EIR key. Astrnmy Obs Req/Instr Eng Req"/>
+    <PARAM ID="OrigHead_0220" arraysize="*" datatype="char" name="OrigHead_0220" value="EXPID   =                    1 / Exposure ID (0-9999)"/>
+    <PARAM ID="OrigHead_0221" arraysize="*" datatype="char" name="OrigHead_0221" value="DCENUM  =                    0 / DCE number (0-9999)"/>
+    <PARAM ID="OrigHead_0222" arraysize="*" datatype="char" name="OrigHead_0222" value="TLMGRPS =                    4 / Number of expected telemetry groups"/>
+    <PARAM ID="OrigHead_0223" arraysize="*" datatype="char" name="OrigHead_0223" value="FILE_VER=                    1 / Version of the raw file made by SIS"/>
+    <PARAM ID="OrigHead_0224" arraysize="*" datatype="char" name="OrigHead_0224" value="RAWNAME = &apos;IRSX.0.0025343744.0001.0000.01.mipl.fits&apos; / Raw data file name"/>
+    <PARAM ID="OrigHead_0225" arraysize="*" datatype="char" name="OrigHead_0225" value="SIS_SVER= &apos;J5.3    &apos;           / SIS SW VERsion"/>
+    <PARAM ID="OrigHead_0226" arraysize="*" datatype="char" name="OrigHead_0226" value="CPT_VER = &apos;3.1.11  &apos;           / Channel Param Table FOS version"/>
+    <PARAM ID="OrigHead_0227" arraysize="*" datatype="char" name="OrigHead_0227" value="CTD_VER = &apos;3.0.94S &apos;           / Cmded telemetry data version"/>
+    <PARAM ID="OrigHead_0228" arraysize="*" datatype="char" name="OrigHead_0228" value="EXPDFLAG=                    F / (T/F) expedited DCE"/>
+    <PARAM ID="OrigHead_0229" arraysize="*" datatype="char" name="OrigHead_0229" value="MISS_LCT=                    0 / Total Missed Line Cnt in this FITS"/>
+    <PARAM ID="OrigHead_0230" arraysize="*" datatype="char" name="OrigHead_0230" value="MANCPKT =                    F / T if this FITS is Missing Ancillary Data"/>
+    <PARAM ID="OrigHead_0231" arraysize="*" datatype="char" name="OrigHead_0231" value="MISSDATA=                    F / T if this FITS is Missing Image Data"/>
+    <PARAM ID="OrigHead_0232" arraysize="*" datatype="char" name="OrigHead_0232" value="PAONUM  =                 3407 / PAO Number"/>
+    <PARAM ID="OrigHead_0233" arraysize="*" datatype="char" name="OrigHead_0233" value="CAMPAIGN= &apos;IRSX011100&apos;         / Campaign"/>
+    <PARAM ID="OrigHead_0234" arraysize="*" datatype="char" name="OrigHead_0234" value="DCEID   =            118700748 / Data-Collection-Event ID"/>
+    <PARAM ID="OrigHead_0235" arraysize="*" datatype="char" name="OrigHead_0235" value="DCEINSID=             24606503 / DCE Instance ID"/>
+    <PARAM ID="OrigHead_0236" arraysize="*" datatype="char" name="OrigHead_0236" value="DPID    =            326632049 / Data Product Instance ID"/>
+    <PARAM ID="OrigHead_0237" arraysize="*" datatype="char" name="OrigHead_0237" value="PIPENUM =                  202 / Ensemble-information"/>
+    <PARAM ID="OrigHead_0238" arraysize="*" datatype="char" name="OrigHead_0238" value="SOS_VER =                   1. / Data-Product Version"/>
+    <PARAM ID="OrigHead_0239" arraysize="*" datatype="char" name="OrigHead_0239" value="PLVID   =                    8 / Pipeline Version ID"/>
+    <PARAM ID="OrigHead_0240" arraysize="*" datatype="char" name="OrigHead_0240" value="CALID   =                    2 / CalTrans Version ID"/>
+    <PARAM ID="OrigHead_0241" arraysize="*" datatype="char" name="OrigHead_0241" value="ORIGIN0 = &apos;JPL_FOS &apos;           / site where RAW FITS files was written"/>
+    <PARAM ID="OrigHead_0242" arraysize="*" datatype="char" name="OrigHead_0242" value="CREATOR0= &apos;J5.3    &apos;           / SW system that created RAW FITS"/>
+    <PARAM ID="OrigHead_0243" arraysize="*" datatype="char" name="OrigHead_0243" value="COMMENT"/>
+    <PARAM ID="OrigHead_0244" arraysize="*" datatype="char" name="OrigHead_0244" value="SLCHINSQ=                  109 / Number of rows with poor SL stray light corrrec"/>
+    <PARAM ID="OrigHead_0245" arraysize="*" datatype="char" name="OrigHead_0245" value="SLRUNCOR=                   13 / Number of rows with no SL stray light corrrecti"/>
+    <PARAM ID="OrigHead_0246" arraysize="*" datatype="char" name="OrigHead_0246" value="GAIN1   =                  4.6 / e/DN conversion (readout channel 1)"/>
+    <PARAM ID="OrigHead_0247" arraysize="*" datatype="char" name="OrigHead_0247" value="GAIN2   =                  4.6 / e/DN conversion (readout channel 2)"/>
+    <PARAM ID="OrigHead_0248" arraysize="*" datatype="char" name="OrigHead_0248" value="GAIN3   =                  4.6 / e/DN conversion (readout channel 3)"/>
+    <PARAM ID="OrigHead_0249" arraysize="*" datatype="char" name="OrigHead_0249" value="GAIN4   =                  4.6 / e/DN conversion (readout channel 4)"/>
+    <PARAM ID="OrigHead_0250" arraysize="*" datatype="char" name="OrigHead_0250" value="BASECH1 =             31539.11 / Trimmed mean channel 1 signal in reference unil"/>
+    <PARAM ID="OrigHead_0251" arraysize="*" datatype="char" name="OrigHead_0251" value="BASECH2 =               34226. / Trimmed mean channel 2 signal in reference unil"/>
+    <PARAM ID="OrigHead_0252" arraysize="*" datatype="char" name="OrigHead_0252" value="BASECH3 =              35164.9 / Trimmed mean channel 3 signal in reference unil"/>
+    <PARAM ID="OrigHead_0253" arraysize="*" datatype="char" name="OrigHead_0253" value="BASECH4 =             30377.93 / Trimmed mean channel 4 signal in reference unil"/>
+    <PARAM ID="OrigHead_0254" arraysize="*" datatype="char" name="OrigHead_0254" value="COMMENT"/>
+    <PARAM ID="OrigHead_0255" arraysize="*" datatype="char" name="OrigHead_0255" value="FBIDDARK=                 1024"/>
+    <PARAM ID="OrigHead_0256" arraysize="*" datatype="char" name="OrigHead_0256" value="FBIDFLAT=                  511"/>
+    <PARAM ID="OrigHead_0257" arraysize="*" datatype="char" name="OrigHead_0257" value="FBIDLNCR=                   22"/>
+    <PARAM ID="OrigHead_0258" arraysize="*" datatype="char" name="OrigHead_0258" value="FBIDLNMD=                  236"/>
+    <PARAM ID="OrigHead_0259" arraysize="*" datatype="char" name="OrigHead_0259" value="FBIDOMSK=                   30"/>
+    <PARAM ID="OrigHead_0260" arraysize="*" datatype="char" name="OrigHead_0260" value="FBIDPMSK=                  353"/>
+    <PARAM ID="OrigHead_0261" arraysize="*" datatype="char" name="OrigHead_0261" value="FBIDWSMP=                  526"/>
+    <PARAM ID="OrigHead_0262" arraysize="*" datatype="char" name="OrigHead_0262" value="FBIDUMSK=                  241"/>
+    <PARAM ID="OrigHead_0263" arraysize="*" datatype="char" name="OrigHead_0263" value="FBIDLMSK=                  274"/>
+    <PARAM ID="OrigHead_0264" arraysize="*" datatype="char" name="OrigHead_0264" value="FBIDSLTC=                   21"/>
+    <PARAM ID="OrigHead_0265" arraysize="*" datatype="char" name="OrigHead_0265" value="FBIDWSOF=                  529"/>
+    <PARAM ID="OrigHead_0266" arraysize="*" datatype="char" name="OrigHead_0266" value="FBIDWSOM=                  532"/>
+    <PARAM ID="OrigHead_0267" arraysize="*" datatype="char" name="OrigHead_0267" value="FBIDWSWA=                  523"/>
+    <PARAM ID="OrigHead_0268" arraysize="*" datatype="char" name="OrigHead_0268" value="FBIDFLXC=                 1201"/>
+    <PARAM ID="OrigHead_0269" arraysize="*" datatype="char" name="OrigHead_0269" value="FBIDFMSK=                   71"/>
+    <PARAM ID="OrigHead_0270" arraysize="*" datatype="char" name="OrigHead_0270" value="FBIDPUMK=                  240"/>
+    <PARAM ID="OrigHead_0271" arraysize="*" datatype="char" name="OrigHead_0271" value="FBIDCALS=                 1215"/>
+    <PARAM ID="OrigHead_0272" arraysize="*" datatype="char" name="OrigHead_0272" value="FBIDLNSC=                  505"/>
+    <PARAM ID="OrigHead_0273" arraysize="*" datatype="char" name="OrigHead_0273" value="CKWPROC = &apos;calkeywords&apos;        / PERFORM CALKEYWORDS OPERATIONS"/>
+    <PARAM ID="OrigHead_0274" arraysize="*" datatype="char" name="OrigHead_0274" value="CKWVERSN=                 3.40 / Version number of calkeywords program"/>
+    <PARAM ID="OrigHead_0275" arraysize="*" datatype="char" name="OrigHead_0275" value="ACTUALN =                    1 / Ensemble-information"/>
+    <PARAM ID="OrigHead_0276" arraysize="*" datatype="char" name="OrigHead_0276" value="EXPECTN =                    1 / Ensemble-information"/>
+    <PARAM ID="OrigHead_0277" arraysize="*" datatype="char" name="OrigHead_0277" value="ENSID   =              3189184 / Ensemble-information"/>
+    <PARAM ID="OrigHead_0278" arraysize="*" datatype="char" name="OrigHead_0278" value="EPVERSN =                    4 / Ensemble-information"/>
+    <PARAM ID="OrigHead_0279" arraysize="*" datatype="char" name="OrigHead_0279" value="CALTYPE = &apos;coadd   &apos;           / Ensemble-information"/>
+    <PARAM ID="OrigHead_0280" arraysize="*" datatype="char" name="OrigHead_0280" value="EPID    =              7173771 / SODB cal-table metadata-record index"/>
+    <PARAM ID="OrigHead_0281" arraysize="*" datatype="char" name="OrigHead_0281" value="CKWCENF1=                  0.9 / Central trim fraction for mean (=0 for median)"/>
+    <PARAM ID="OrigHead_0282" arraysize="*" datatype="char" name="OrigHead_0282" value="CKWCENF2=                  0.9 / Central trim fraction for standard deviation"/>
+    <PARAM ID="OrigHead_0283" arraysize="*" datatype="char" name="OrigHead_0283" value="CKWNLFIL= &apos;calkeywords.nl&apos;"/>
+    <PARAM ID="OrigHead_0284" arraysize="*" datatype="char" name="OrigHead_0284" value="CKWILIST= &apos;inputlist_coadd&apos;"/>
+    <PARAM ID="OrigHead_0285" arraysize="*" datatype="char" name="OrigHead_0285" value="CKWKLIST= &apos;calkeywords_inputlist_coadd2d.dat&apos;"/>
+    <PARAM ID="OrigHead_0286" arraysize="*" datatype="char" name="OrigHead_0286" value="CKWEINFO= &apos;ensemble_info.txt&apos;"/>
+    <PARAM ID="OrigHead_0287" arraysize="*" datatype="char" name="OrigHead_0287" value="CKWOFIL1= &apos;coadd2d.fits&apos;"/>
+    <PARAM ID="OrigHead_0288" arraysize="*" datatype="char" name="OrigHead_0288" value="CKWLGFIL= &apos;stdout  &apos;"/>
+    <PARAM ID="OrigHead_0289" arraysize="*" datatype="char" name="OrigHead_0289" value="COMMENT PROCESS 2010/09/17 15:52:13"/>
+    <PARAM ID="OrigHead_0290" arraysize="*" datatype="char" name="OrigHead_0290" value="COMMENT profile v3.6  (integrate (library) v1.31, nl_and_params v1.9)"/>
+    <PARAM ID="OrigHead_0291" arraysize="*" datatype="char" name="OrigHead_0291" value="INFILE = coadd2d.fits"/>
+    <PARAM ID="OrigHead_0292" arraysize="*" datatype="char" name="OrigHead_0292" value="WAVSAMP_FILE = ./cal/wavsamp.tbl"/>
+    <PARAM ID="OrigHead_0293" arraysize="*" datatype="char" name="OrigHead_0293" value="FOVTABLE_FILE = ./cal/psf_fov.tbl"/>
+    <PARAM ID="OrigHead_0294" arraysize="*" datatype="char" name="OrigHead_0294" value="N_CUTS = 1000,"/>
+    <PARAM ID="OrigHead_0295" arraysize="*" datatype="char" name="OrigHead_0295" value="BMASKFILE = coadd2d_amask.fits"/>
+    <PARAM ID="OrigHead_0296" arraysize="*" datatype="char" name="OrigHead_0296" value="BMASKFILE_FATAL = 29056,"/>
+    <PARAM ID="OrigHead_0297" arraysize="*" datatype="char" name="OrigHead_0297" value="NAMELIST_FILE = ./cdf/profile.nl"/>
+    <PARAM ID="OrigHead_0298" arraysize="*" datatype="char" name="OrigHead_0298" value="CHNLNUM = 0"/>
+    <PARAM ID="OrigHead_0299" arraysize="*" datatype="char" name="OrigHead_0299" value="FOVID   = 33"/>
+    <PARAM ID="OrigHead_0300" arraysize="*" datatype="char" name="OrigHead_0300" value="ORDER1 = 2"/>
+    <PARAM ID="OrigHead_0301" arraysize="*" datatype="char" name="OrigHead_0301" value="ORDER2 = 3"/>
+    <PARAM ID="OrigHead_0302" arraysize="*" datatype="char" name="OrigHead_0302" value="HISTORY PROCESS 2010/09/17 15:52:14"/>
+    <PARAM ID="OrigHead_0303" arraysize="*" datatype="char" name="OrigHead_0303" value="HISTORY extract v5.6  (integrate (library) v1.31, nl_and_params v1.9)"/>
+    <PARAM ID="OrigHead_0304" arraysize="*" datatype="char" name="OrigHead_0304" value="HISTORY INFILE = coadd2d.fits"/>
+    <PARAM ID="OrigHead_0305" arraysize="*" datatype="char" name="OrigHead_0305" value="HISTORY RIDGE_TABLE = ridge.tbl"/>
+    <PARAM ID="OrigHead_0306" arraysize="*" datatype="char" name="OrigHead_0306" value="HISTORY PSF_TABLE = ./cal/psf_fov.tbl"/>
+    <PARAM ID="OrigHead_0307" arraysize="*" datatype="char" name="OrigHead_0307" value="HISTORY BMASKFILE = coadd2d_amask.fits"/>
+    <PARAM ID="OrigHead_0308" arraysize="*" datatype="char" name="OrigHead_0308" value="HISTORY UNCERFILE = coadd2d_unc.fits"/>
+    <PARAM ID="OrigHead_0309" arraysize="*" datatype="char" name="OrigHead_0309" value="HISTORY BMASKFATAL = 29056,"/>
+    <PARAM ID="OrigHead_0310" arraysize="*" datatype="char" name="OrigHead_0310" value="HISTORY NORMALIZE = 1,"/>
+    <PARAM ID="OrigHead_0311" arraysize="*" datatype="char" name="OrigHead_0311" value="HISTORY NAMELIST_FILE = ./cdf/extract.nl"/>
+    <PARAM ID="OrigHead_0312" arraysize="*" datatype="char" name="OrigHead_0312" value="HISTORY HEIGHT1 = 0"/>
+    <PARAM ID="OrigHead_0313" arraysize="*" datatype="char" name="OrigHead_0313" value="HISTORY FLAG_NAN_DROP = 1"/>
+    <PARAM ID="OrigHead_0314" arraysize="*" datatype="char" name="OrigHead_0314" value="FCON_UNC = 124.500000"/>
+    <PARAM ID="OrigHead_0315" arraysize="*" datatype="char" name="OrigHead_0315" value="HISTORY PROCESS 2010/09/17 15:52:14"/>
+    <PARAM ID="OrigHead_0316" arraysize="*" datatype="char" name="OrigHead_0316" value="HISTORY irs_tune v3.4  (nl_and_params v1.9)"/>
+    <PARAM ID="OrigHead_0317" arraysize="*" datatype="char" name="OrigHead_0317" value="HISTORY INFILE = extract.tbl"/>
+    <PARAM ID="OrigHead_0318" arraysize="*" datatype="char" name="OrigHead_0318" value="HISTORY INFILE = ./cal/fluxcon.tbl"/>
+    <PARAM ID="OrigHead_0319" arraysize="*" datatype="char" name="OrigHead_0319" value="HISTORY UP_DOWN_MODE = tune_down"/>
+    <PARAM ID="OrigHead_0320" arraysize="*" datatype="char" name="OrigHead_0320" value="HISTORY APPLY = 3,"/>
+    <PARAM ID="OrigHead_0321" arraysize="*" datatype="char" name="OrigHead_0321" value="HISTORY NAMELIST_FILE = ./cdf/irs_tune.nl"/>
+   </GROUP>
+  <DATA>
+    <TABLEDATA>
+     <TR>
+      <TD>2</TD>
+      <TD>5.1265200000000002</TD>
+      <TD>0.077487</TD>
+      <TD>0.010123999999999999</TD>
+      <TD>12416</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.1567600000000002</TD>
+      <TD>0.17114199999999999</TD>
+      <TD>0.012826000000000001</TD>
+      <TD>128</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.1870000000000003</TD>
+      <TD>0.186087</TD>
+      <TD>0.0076649999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.2172499999999999</TD>
+      <TD>0.18601599999999999</TD>
+      <TD>0.005679</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.24749</TD>
+      <TD>0.17181099999999999</TD>
+      <TD>0.0053439999999999998</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.27773</TD>
+      <TD>0.17236000000000001</TD>
+      <TD>0.0055409999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.3079700000000001</TD>
+      <TD>0.16720599999999999</TD>
+      <TD>0.0053080000000000002</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.3382100000000001</TD>
+      <TD>0.170456</TD>
+      <TD>0.0052269999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.3684599999999998</TD>
+      <TD>0.174923</TD>
+      <TD>0.0053930000000000002</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.3986999999999998</TD>
+      <TD>0.168878</TD>
+      <TD>0.0054149999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.4289399999999999</TD>
+      <TD>0.17291899999999999</TD>
+      <TD>0.005522</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.4591799999999999</TD>
+      <TD>0.173398</TD>
+      <TD>0.005372</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.48942</TD>
+      <TD>0.174676</TD>
+      <TD>0.0053740000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.5196699999999996</TD>
+      <TD>0.15971299999999999</TD>
+      <TD>0.0051599999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.5499099999999997</TD>
+      <TD>0.167265</TD>
+      <TD>0.0054460000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.5801499999999997</TD>
+      <TD>0.16889399999999999</TD>
+      <TD>0.0056690000000000004</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.6103899999999998</TD>
+      <TD>0.17544799999999999</TD>
+      <TD>0.0059379999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.6406299999999998</TD>
+      <TD>0.18318499999999999</TD>
+      <TD>0.006097</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.6708800000000004</TD>
+      <TD>0.170428</TD>
+      <TD>0.0058389999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.7011200000000004</TD>
+      <TD>0.17158100000000001</TD>
+      <TD>0.0058430000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.7313599999999996</TD>
+      <TD>0.171958</TD>
+      <TD>0.005914</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.7615999999999996</TD>
+      <TD>0.17408299999999999</TD>
+      <TD>0.0060130000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.7918399999999997</TD>
+      <TD>0.16337099999999999</TD>
+      <TD>0.005849</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.8220900000000002</TD>
+      <TD>0.166409</TD>
+      <TD>0.0058389999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.8523300000000003</TD>
+      <TD>0.176762</TD>
+      <TD>0.0059030000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.8825700000000003</TD>
+      <TD>0.18990599999999999</TD>
+      <TD>0.0058890000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.9128100000000003</TD>
+      <TD>0.177837</TD>
+      <TD>0.0056779999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.9430500000000004</TD>
+      <TD>0.18226300000000001</TD>
+      <TD>0.0057089999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>5.9733000000000001</TD>
+      <TD>0.17443800000000001</TD>
+      <TD>0.0055189999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.0035400000000001</TD>
+      <TD>0.17178499999999999</TD>
+      <TD>0.0054229999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.0337800000000001</TD>
+      <TD>0.17916599999999999</TD>
+      <TD>0.005424</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.0640200000000002</TD>
+      <TD>0.18277099999999999</TD>
+      <TD>0.0052989999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.0942600000000002</TD>
+      <TD>0.17758399999999999</TD>
+      <TD>0.0051149999999999998</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.1245099999999999</TD>
+      <TD>0.18978900000000001</TD>
+      <TD>0.005215</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.1547499999999999</TD>
+      <TD>0.18612699999999999</TD>
+      <TD>0.005071</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.18499</TD>
+      <TD>0.187801</TD>
+      <TD>0.0050660000000000002</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.21523</TD>
+      <TD>0.185195</TD>
+      <TD>0.0049490000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.2454700000000001</TD>
+      <TD>0.180872</TD>
+      <TD>0.0048459999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.2757199999999997</TD>
+      <TD>0.18222099999999999</TD>
+      <TD>0.0049179999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.3059599999999998</TD>
+      <TD>0.18484700000000001</TD>
+      <TD>0.0050390000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.3361999999999998</TD>
+      <TD>0.18824199999999999</TD>
+      <TD>0.0051679999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.3664399999999999</TD>
+      <TD>0.188919</TD>
+      <TD>0.0052129999999999998</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.3966799999999999</TD>
+      <TD>0.18942400000000001</TD>
+      <TD>0.0051640000000000002</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.4269299999999996</TD>
+      <TD>0.18456900000000001</TD>
+      <TD>0.005032</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.4571699999999996</TD>
+      <TD>0.17809</TD>
+      <TD>0.0049040000000000004</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.4874099999999997</TD>
+      <TD>0.17589399999999999</TD>
+      <TD>0.0050210000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.5176499999999997</TD>
+      <TD>0.170544</TD>
+      <TD>0.005156</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.5478899999999998</TD>
+      <TD>0.178975</TD>
+      <TD>0.0055380000000000004</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.5781400000000003</TD>
+      <TD>0.18506600000000001</TD>
+      <TD>0.0059369999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.6083800000000004</TD>
+      <TD>0.18435799999999999</TD>
+      <TD>0.0061050000000000002</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.6386200000000004</TD>
+      <TD>0.18993299999999999</TD>
+      <TD>0.0062059999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.6688599999999996</TD>
+      <TD>0.18277599999999999</TD>
+      <TD>0.0060419999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.6990999999999996</TD>
+      <TD>0.18290500000000001</TD>
+      <TD>0.0060879999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.7293500000000002</TD>
+      <TD>0.18179999999999999</TD>
+      <TD>0.0063610000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.7595900000000002</TD>
+      <TD>0.182999</TD>
+      <TD>0.007267</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.7898300000000003</TD>
+      <TD>0.187113</TD>
+      <TD>0.0070439999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.8200700000000003</TD>
+      <TD>0.19272300000000001</TD>
+      <TD>0.0074900000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.8503100000000003</TD>
+      <TD>0.183725</TD>
+      <TD>0.0076109999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.88056</TD>
+      <TD>0.18187999999999999</TD>
+      <TD>0.0077619999999999998</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.9108000000000001</TD>
+      <TD>0.18521299999999999</TD>
+      <TD>0.0080470000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.9410400000000001</TD>
+      <TD>0.18327199999999999</TD>
+      <TD>0.0083309999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>6.9712800000000001</TD>
+      <TD>0.19925000000000001</TD>
+      <TD>0.0088690000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.0015200000000002</TD>
+      <TD>0.194164</TD>
+      <TD>0.0090810000000000005</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.0317699999999999</TD>
+      <TD>0.17965800000000001</TD>
+      <TD>0.0088769999999999995</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.0620099999999999</TD>
+      <TD>0.19373799999999999</TD>
+      <TD>0.0088800000000000007</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.0922499999999999</TD>
+      <TD>0.29178599999999999</TD>
+      <TD>NaN</TD>
+      <TD>12288</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.12249</TD>
+      <TD>0.22126699999999999</TD>
+      <TD>NaN</TD>
+      <TD>12288</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.15273</TD>
+      <TD>0.191829</TD>
+      <TD>NaN</TD>
+      <TD>12288</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.1829799999999997</TD>
+      <TD>0.18893099999999999</TD>
+      <TD>0.0077289999999999998</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.2132199999999997</TD>
+      <TD>0.18704000000000001</TD>
+      <TD>0.0078440000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.2434599999999998</TD>
+      <TD>0.17977699999999999</TD>
+      <TD>0.0078949999999999992</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.2736999999999998</TD>
+      <TD>0.206513</TD>
+      <TD>0.0084799999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.3039399999999999</TD>
+      <TD>0.199298</TD>
+      <TD>0.0082330000000000007</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.3341900000000004</TD>
+      <TD>0.20458599999999999</TD>
+      <TD>0.00826</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.3644299999999996</TD>
+      <TD>0.197517</TD>
+      <TD>0.0079380000000000006</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.3946699999999996</TD>
+      <TD>0.189524</TD>
+      <TD>0.0077200000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.4249099999999997</TD>
+      <TD>0.19428400000000001</TD>
+      <TD>0.0077669999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.4551499999999997</TD>
+      <TD>0.18607000000000001</TD>
+      <TD>0.007698</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.4854000000000003</TD>
+      <TD>0.19087799999999999</TD>
+      <TD>0.0078729999999999998</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.5156400000000003</TD>
+      <TD>0.20589499999999999</TD>
+      <TD>0.0081359999999999991</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.5458800000000004</TD>
+      <TD>0.20518700000000001</TD>
+      <TD>0.00826</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>2</TD>
+      <TD>7.5761200000000004</TD>
+      <TD>0.091661000000000006</TD>
+      <TD>0.0054489999999999999</TD>
+      <TD>128</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.3341900000000004</TD>
+      <TD>0.120769</TD>
+      <TD>0.0053179999999999998</TD>
+      <TD>12288</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.3946699999999996</TD>
+      <TD>0.16034599999999999</TD>
+      <TD>0.0053160000000000004</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.4551499999999997</TD>
+      <TD>0.16589999999999999</TD>
+      <TD>0.0051399999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.5156400000000003</TD>
+      <TD>0.17826400000000001</TD>
+      <TD>0.0050899999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.5761200000000004</TD>
+      <TD>0.17674100000000001</TD>
+      <TD>0.005019</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.6365999999999996</TD>
+      <TD>0.17943799999999999</TD>
+      <TD>0.0049589999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.6970900000000002</TD>
+      <TD>0.18112500000000001</TD>
+      <TD>0.0048129999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.7575700000000003</TD>
+      <TD>0.181759</TD>
+      <TD>0.0046899999999999997</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.8180500000000004</TD>
+      <TD>0.18506700000000001</TD>
+      <TD>0.0046470000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.8785400000000001</TD>
+      <TD>0.19043599999999999</TD>
+      <TD>0.0046499999999999996</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.9390200000000002</TD>
+      <TD>0.19239899999999999</TD>
+      <TD>0.0045799999999999999</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>7.9995099999999999</TD>
+      <TD>0.19094700000000001</TD>
+      <TD>0.0044120000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.0599900000000009</TD>
+      <TD>0.191275</TD>
+      <TD>0.0042770000000000004</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.1204699999999992</TD>
+      <TD>0.19009200000000001</TD>
+      <TD>0.0041920000000000004</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.1809600000000007</TD>
+      <TD>0.19439600000000001</TD>
+      <TD>0.0042630000000000003</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.2414400000000008</TD>
+      <TD>0.19539699999999999</TD>
+      <TD>0.004372</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.3019200000000009</TD>
+      <TD>0.19700200000000001</TD>
+      <TD>0.0044489999999999998</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.3624100000000006</TD>
+      <TD>0.196074</TD>
+      <TD>0.0043860000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.4228900000000007</TD>
+      <TD>0.19500500000000001</TD>
+      <TD>0.0043860000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.4833700000000007</TD>
+      <TD>0.19562599999999999</TD>
+      <TD>0.0050000000000000001</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.5438600000000005</TD>
+      <TD>0.16934199999999999</TD>
+      <TD>0.0064419999999999998</TD>
+      <TD>0</TD>
+     </TR>
+     <TR>
+      <TD>3</TD>
+      <TD>8.6043400000000005</TD>
+      <TD>0.12123399999999999</TD>
+      <TD>0.0091020000000000007</TD>
+      <TD>128</TD>
+     </TR>
+    </TABLEDATA>
+   </DATA>
+  </TABLE>
+ </RESOURCE>
+</VOTABLE>

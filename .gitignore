@@ -1,0 +1,9 @@
+#
+# -- ignore tmp files that are produce by programs such a vim and finder
+#
+*.ipr
+*.iws
+*.iml
+*.swp
+*.iml
+.DS_Store
