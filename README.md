@@ -1,6 +1,6 @@
 # notebooks
 Collection of Python notebooks
 
-Use mybinder.org to launch nteractive session to play with the notebooks:
+Use mybinder.org to launch interactive session to play with the notebooks:
 
-https://mybinder.org/v2/gh/ejoliet/notebooks/main
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ejoliet/notebooks/main)
